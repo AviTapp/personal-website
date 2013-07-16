@@ -14,12 +14,7 @@
 */
 
 body {
-	min-width: 960px;
-	background-color: #AACEE6;
-	background-image: url(../imgs/background.png);
-	background-repeat: no-repeat;
-	background-position: center bottom;
-	background-attachment: fixed;
+  min-width: 960px;
 }
 
 /* `Container
@@ -369,20 +364,5 @@ body {
 	margin-right: 6px;
 }
 .nomargin {
-	/* [disabled]margin: 0px; */
-}
-.container_12 .left-image {
-	margin-top: 0px;
-	margin-right: 5px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-}
-.container_12 .right-image {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 5px;
-}
-.container_12 .rise-10px {
-	margin-top: -10px;
+	margin: 0px;
 }

@@ -640,7 +640,13 @@ a:focus {
 }
 
 p {
-  margin: 0 0 10px;
+	background-color: #AACEE6;
+	text-indent: 0.5in;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	padding: 3%;
 }
 
 .lead {
@@ -755,7 +761,11 @@ h3 {
 }
 
 h1 {
-  font-size: 38.5px;
+	font-size: 38.5px;
+	text-align: center;
+	text-decoration: underline;
+	font-variant: small-caps;
+	background-color: #aacee6;
 }
 
 h2 {
@@ -3962,14 +3972,15 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav-header {
-  display: block;
-  padding: 3px 15px;
-  font-size: 11px;
-  font-weight: bold;
-  line-height: 20px;
-  color: #999999;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  text-transform: uppercase;
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #999999;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	text-transform: uppercase;
+	background-image: url(../imgs/header.png);
+	height: 200px;
 }
 
 .nav li + .nav-header {
