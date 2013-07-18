@@ -762,9 +762,7 @@ h3 {
 
 h1 {
 	font-size: 38.5px;
-	text-align: center;
-	text-decoration: underline;
-	font-variant: small-caps;
+	text-align: right;
 	background-color: #aacee6;
 }
 
@@ -773,7 +771,8 @@ h2 {
 }
 
 h3 {
-  font-size: 24.5px;
+	font-size: 24.5px;
+	text-align: center;
 }
 
 h4 {
@@ -3981,6 +3980,8 @@ input[type="submit"].btn.btn-mini {
 	text-transform: uppercase;
 	background-image: url(../imgs/header.png);
 	height: 200px;
+	background-repeat: no-repeat;
+	background-position: center top;
 }
 
 .nav li + .nav-header {
