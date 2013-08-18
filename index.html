@@ -9,7 +9,7 @@
 		<div class="navbar navbar-inverse navbar-fixed-top">
 			<div class="navbar-inner">
 				<div class="container">
-					<a class="brand" href="#">Avi Tapp</a>
+					<a class="brand" href="index.html">Avi Tapp</a>
 					<ul class="nav js-nav">
 						<li class="js-nav-item"><a href="#homeStuff">Home</a></li>
 						<li class="js-nav-item"><a href="#aboutStuff">About</a></li>
@@ -29,20 +29,51 @@
 					<li><a class="btn-inverse" href="#">Projects</a></li>
 				</ul>
 			</div>
-			<div class="grid_8 push_1">
-				<div class="js-tab" id="homeStuff"><img src="img/frontpage-image.svg"></div>
-				<div class="js-tab" id="aboutStuff">About my life and your monkeys</div>
-				<div class="js-tab" id="resumeStuff">My resume, hire me damn it!!!</div>
-				<div class="js-tab" id="contactStuff">Write me a letter, i'll love you forever. 42...</div>
+			<div class="grid_9">
+				<div class="js-tab" id="homeStuff">
+					<img class="grid_7 push_1" src="img/frontpage-image.svg">
+				</div>
+				<div class="js-tab" id="aboutStuff">
+					<p>placeholder</p>
+				</div>
+				<div class="js-tab" id="resumeStuff">
+					<object data="docs/resume1304.pdf" type="application/pdf" width="826px" height="1066px">alt : <a href="docs/resume1304.pdf">resume1304.pdf</a></object>
+				</div>
+				<div class="js-tab" id="contactStuff">
+					<form name="htmlform" method="post" action="php/html_form_send.php">
+						<table width="450px">
+							<tr>
+								<td valign="top"><label for="first_name">First Name *</label></td>
+								<td valign="top"><input  type="text" name="first_name" maxlength="50" size="30"></td>
+							</tr>
+							<tr>
+								<td valign="top"><label for="last_name">Last Name *</label></td>
+								<td valign="top"><input  type="text" name="last_name" maxlength="50" size="30"></td>
+							</tr>
+							<tr>
+								<td valign="top"><label for="email">Email Address *</label></td>
+								<td valign="top"><input  type="text" name="email" maxlength="80" size="30"></td>
+							</tr>
+							<tr>
+								<td valign="top"><label for="telephone">Telephone Number</label></td>
+								<td valign="top"><input  type="text" name="telephone" maxlength="30" size="30"></td>
+							</tr>
+							<tr>
+								<td valign="top"><label for="comments">Comments *</label></td>
+								<td valign="top"><textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea></td>
+							</tr>
+							<tr>
+								<td colspan="2" style="text-align:center"><input type="submit" value="Submit"></td>
+							</tr>
+						</table>
+					</form>
+				</div>
 			</div>
 		</div>
-		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script src="js/jquery.herotabs.js"></script>
-		<script>
-			$('.tabs').herotabs({
-			});
-		</script> 
+		<script>$('.tabs').herotabs({});</script>
+		<script src="js/jquery.contactForm.js"></script>
 	</body>
 </html>
