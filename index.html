@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Andrew "Avi" Tapp</title>
+		<title>Avi Tapp - Home</title>
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	</head>
@@ -10,26 +10,26 @@
 			<div class="navbar-inner">
 				<div class="container">
 					<a class="brand" href="index.html">Avi Tapp</a>
-					<ul class="nav js-nav">
+					<ul class="nav js-nav"><!--Fixed top nav bar, including switch out panel calls-->
 						<li class="js-nav-item"><a href="#homeStuff">Home</a></li>
 						<li class="js-nav-item"><a href="#aboutStuff">About</a></li>
 						<li class="js-nav-item"><a href="#resumeStuff">Resume</a></li>
-						<li class="js-nav-item"><a href="#contactStuff">Contact</a></li>
+						<li class="js-nav-item"><a href="mailto:andrew.tapp@gmail.com?Subject=Personal%20Website%20Contact">~Compose Email~</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div class="container_12">
 			<div class="grid_3">
-				<img src="#" height="75px" width="220px">
-				<ul class="nav nav-tabs nav-stacked">
+				<img src="img/faceLarge.jpg">
+				<ul class="nav nav-tabs nav-stacked"><!--Left side nav bar, including external links-->
 					<li><a class="btn-inverse" href="http://goo.gl/ioz0FA">GitHub</a></li>
 					<li><a class="btn-inverse" href="http://goo.gl/gifskE">Google+</a></li>
 					<li><a class="btn-inverse" href="http://goo.gl/vteVsX">Facebook</a></li>
-					<li><a class="btn-inverse" href="#">Projects</a></li>
+					<li><a class="btn-inverse" href="projects.html">Projects</a></li>
 				</ul>
 			</div>
-			<div class="grid_9">
+			<div class="grid_9"><!--Individual switch out panel contents-->
 				<div class="js-tab" id="homeStuff">
 					<img class="grid_7 push_1" src="img/frontpage-image.svg">
 				</div>
@@ -39,41 +39,14 @@
 				<div class="js-tab" id="resumeStuff">
 					<object data="docs/resume1304.pdf" type="application/pdf" width="826px" height="1066px">alt : <a href="docs/resume1304.pdf">resume1304.pdf</a></object>
 				</div>
-				<div class="js-tab" id="contactStuff">
-					<form name="htmlform" method="post" action="php/html_form_send.php">
-						<table width="450px">
-							<tr>
-								<td valign="top"><label for="first_name">First Name *</label></td>
-								<td valign="top"><input  type="text" name="first_name" maxlength="50" size="30"></td>
-							</tr>
-							<tr>
-								<td valign="top"><label for="last_name">Last Name *</label></td>
-								<td valign="top"><input  type="text" name="last_name" maxlength="50" size="30"></td>
-							</tr>
-							<tr>
-								<td valign="top"><label for="email">Email Address *</label></td>
-								<td valign="top"><input  type="text" name="email" maxlength="80" size="30"></td>
-							</tr>
-							<tr>
-								<td valign="top"><label for="telephone">Telephone Number</label></td>
-								<td valign="top"><input  type="text" name="telephone" maxlength="30" size="30"></td>
-							</tr>
-							<tr>
-								<td valign="top"><label for="comments">Comments *</label></td>
-								<td valign="top"><textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea></td>
-							</tr>
-							<tr>
-								<td colspan="2" style="text-align:center"><input type="submit" value="Submit"></td>
-							</tr>
-						</table>
-					</form>
-				</div>
+				<!--div class="js-tab" id="contactStuff">
+					<p>This will be replaced with a "fill-in-the-blank-and-submit" PHP form when i move the site to a different host</p>
+				</div-->
 			</div>
 		</div>
-		<script src="js/bootstrap.js"></script>
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="js/bootstrap.js"></script>
 		<script src="js/jquery.herotabs.js"></script>
 		<script>$('.tabs').herotabs({});</script>
-		<script src="js/jquery.contactForm.js"></script>
 	</body>
 </html>

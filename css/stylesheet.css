@@ -364,3 +364,7 @@ body {
 .naked {
   margin: 0px;
 }
+
+.panel {
+  max-height: 300px;
+}
