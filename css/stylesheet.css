@@ -366,5 +366,14 @@ body {
 }
 
 .panel {
-  max-height: 300px;
+  width: 220px;
+  height: 165px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 50px;
+  box-shadow: 5px 10px 20px grey;
+}
+
+.caption {
+  
 }
