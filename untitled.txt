@@ -1,9 +1,0 @@
-<ul class="dropdown-menu">
-							<li><a href="">HTML/CSS</a></li>
-							<li><a href="">Python</a></li>
-							<li><a href="">Graphic Design</a></li>
-							<li><a href="">Public Relations</a></li>
-							<li><a href="">General Writing</a></li>
-							<li><a href="">Public Speaking</a></li>
-							<li><a href="">Organizations Managed</a></li>
-						</ul>
