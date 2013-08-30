@@ -58,12 +58,27 @@
 				<div class="js-tab" id="tab4">
 					<h1 class="flip">Public Relations</h1>
 					<hr class="grid_9">
-					<div class="panel"><img src="img/html02.jpg"></div>
-					<div class="panel"><img src="img/html01.jpg"></div>
-					<div class="panel"><img src="img/html02.jpg"></div>
-					<div class="panel"><img src="img/html01.jpg"></div>
-					<div class="panel"><img src="img/html02.jpg"></div>
-					<div class="panel"><img src="img/html01.jpg"></div>
+					<div class="lightbox">
+						<section class="centerUp">
+							<a class="modalLink" href="#modal1">Item 1 & 2</a>
+						</section>
+						<section class="centerUp">
+							<a class="modalLink" href="#modal2">Item 3 & 4</a>
+						</section>
+
+						<div class="overlay"></div>
+
+						<div id="modal1" class="modal">
+							<p class="closeBtn">Close</p>
+							<a href="item 1.pdf">item 1</a>
+							<a href="item 2.pdf">item 2</a>
+						</div>
+						<div id="modal2" class="modal">
+							<p class="closeBtn">Close</p>
+							<a href="item 3.pdf">item 3</a>
+							<a href="item 4.pdf">item 4</a>
+						</div>
+					</div>
 				</div>
 				<div class="js-tab" id="tab5">
 					<h1 class="flip">General Writing</h1>
@@ -102,5 +117,7 @@
 		<script src="js/bootstrap.js"></script>
 		<script src="js/jquery.herotabs.js"></script>
 		<script>$('.tabs').herotabs({});</script>
+		<script src="js/jquery.modal.js"></script>
+		<script src="js/site.js"></script>
 	</body>
 </html>
