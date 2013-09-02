@@ -448,6 +448,12 @@ section {
   float: left;
   text-align: center;
   text-decoration: none;
-  vertical-align: baseline;
-  padding: 0 30px 0 0;
+  vertical-align: sub;
+  padding: 0;
+}
+
+#home img {
+  width: 20px;
+  vertical-align: 1%;
+  margin: 0 5px 0 0;
 }
