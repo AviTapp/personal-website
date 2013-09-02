@@ -446,14 +446,14 @@ section {
 
 #home {
   float: left;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   vertical-align: sub;
   padding: 0;
 }
 
 #home img {
-  width: 20px;
-  vertical-align: 1%;
-  margin: 0 5px 0 0;
+  width: 50px;
+  vertical-align: sub;
+  margin: 0 5px 0 10px;
 }
