@@ -357,6 +357,10 @@ body {
   zoom: 1;
 }
 
+/* Stuff I added to make other stuff work
+----------------------------------------------------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+
 .flip {
   float: right;
 }
@@ -371,9 +375,86 @@ body {
   float: left;
   margin-left: 10px;
   margin-top: 50px;
-  box-shadow: 5px 10px 20px grey;
+  box-shadow: 5px 10px 20px gray;
 }
 
-.caption {
-  
+.centerUp {
+  width: 100%;
+  float: left;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  color: #3a6a7e;
+  font-size: 13px;
+  font-family: 'Playfair Display', serif;
+}
+
+.lightbox a {
+  height: 40px;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  background: #1b3163;
+  -webkit-box-shadow: -5px 10px 20px gray;
+  -moz-box-shadow: -5px 10px 20px gray;
+  box-shadow: -5px 10px 20px gray;
+  width: 182px;
+  float: left;
+  margin: 0 0 5% 31px;
+}
+
+.modal p {
+  font-size: 14px;
+  text-align: left;
+  margin: 5px 0 15px -2px;
+}
+
+.modal p:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.lightbox a:hover {
+  background: #6a80b1;
+  text-decoration: none;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  background-color: black;
+}
+
+.modal {
+  display: none;
+  background: #eee;
+  padding: 0 20px 20px;
+  overflow: auto;
+  z-index: 1001;
+  position: absolute;
+  width: 500px;
+  min-height: 300px;
+}
+
+#home {
+  float: left;
+  text-align: left;
+  text-decoration: none;
+  padding: 0;
+}
+
+#home img {
+  width: 50px;
+  vertical-align: sub;
+  margin: 0 5px 0 10px;
 }

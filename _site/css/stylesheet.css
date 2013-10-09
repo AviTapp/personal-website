@@ -357,6 +357,10 @@ body {
   zoom: 1;
 }
 
+/* Stuff I added to make other stuff work
+----------------------------------------------------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+
 .flip {
   float: right;
 }
@@ -374,6 +378,48 @@ body {
   box-shadow: 5px 10px 20px grey;
 }
 
-.caption {
+.centerUp {
+  width: 25%;
+  float: left;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
   
+  color: #3a6a7e;
+  font-size: 13px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+.lightbox a {
+  display: block;
+  height: 50px;
+  margin: 0px 20px 20px 0px;
+  padding: 30px 0 0;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  background: #eb5a3d;
+  -webkit-box-shadow: inset 0 1px 1px #ffbfb3, 0 2px 5px #732e20;
+  -moz-box-shadow: inset 0 1px 1px #ffbfb3, 0 2px 5px #732e20;
+  box-shadow: inset 0 1px 1px #ffbfb3, 0 2px 5px #732e20;
+  border: 1px solid #884335;
+}
+
+.modal p {
+  font-size: 14px;
+  text-align: left;
+  margin: 10px 0 0;
+}
+
+.modal p:hover {
+  cursor: pointer;
+}
+
+.lightbox a:hover {
+  background: #ea5234;
 }
