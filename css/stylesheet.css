@@ -416,6 +416,7 @@ section {
 
 .modal p:hover {
   cursor: pointer;
+  text-decoration: none;
 }
 
 .lightbox a:hover {
