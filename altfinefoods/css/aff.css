@@ -1,0 +1,30 @@
+.header-address {
+	font-size: medium;
+	font-style: italic;
+	text-align: center;
+	padding-top: 31px;
+	line-height: 20px;
+}
+a:link,
+a:active,
+a:visited {
+	color: #008000;
+}
+.nav-item {
+	margin-left: 32px;
+}
+.logo {
+	margin-left: 7px;
+}
+.nav,
+.content {
+	min-height: 260px;
+}
+.content p {
+	font-size: large;
+	margin: 0px;
+}
+.logo-footer {
+	width: 50px;
+	height: 50px;
+}

@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Peralta|Elsie);
+body {
+	background-color: #084250;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+	color: black;
+}
+.address,
+.phone {
+	min-height: 20px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin: 75px 50px 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+.address {
+	background-color: #227a8f;
+}
+.banner {
+	height: 75px;
+	margin: 20px 0px 0px 0px;
+}
+.phone {
+	background-color: #766d07;
+}
+.menu>li {
+	margin: 0px;
+}
+.submenu {
+	text-align: left;
+	font-size: 15px;
+	background-color: inherit;
+	color: black;
+	margin-left: 15px;
+}
+.topNavBar {
+	float: left;
+	height: 76px;
+}
+.topNavItem,
+.bottomNavItem {
+	margin-top: 30px;
+	min-height: 30px;
+	text-align: center;
+	font-size: 24px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	vertical-align: bottom;
+}
+.topNavItem {
+	font-family: 'Elsie', cursive;
+	background-color: #c2b73c;
+	margin: 20px 10px;
+}
+.frontPageImg {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	height: 450px;
+	box-shadow: 10px 10px 5px #710748;
+	position: relative;
+	z-index: -1;
+}
+.bottomNavItem {
+	font-family: 'Peralta', cursive;
+	background-color: #3f022f;
+}
+.logoAT {
+	width: 60px;
+	height: 60px;
+}
