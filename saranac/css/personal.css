@@ -1,33 +1,19 @@
 @import url(http://fonts.googleapis.com/css?family=Peralta|Elsie);
 body {
-	background-color: #084250;
+	background-color: #333300;
 }
 a:link,
 a:visited,
-a:hover,
 a:active {
 	text-decoration: none;
 	color: black;
 }
-.address,
-.phone {
-	min-height: 20px;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	margin: 75px 50px 0px;
-	text-align: center;
-	vertical-align: middle;
-}
-.address {
-	background-color: #227a8f;
-}
 .banner {
-	height: 75px;
-	margin: 20px 0px 0px 0px;
-}
-.phone {
-	background-color: #766d07;
+	background-color: white;
+	padding: 20px 0px;
+	-webkit-border-radius: 0px 0px 125px 125px;
+	-moz-border-radius: 0px 0px 125px 125px;
+	border-radius: 0px 0px 125px 125px;
 }
 .menu>li {
 	margin: 0px;
@@ -37,7 +23,12 @@ a:active {
 	font-size: 15px;
 	background-color: inherit;
 	color: black;
-	margin-left: 15px;
+	padding-left: 15px;
+	margin-left: 0px;
+}
+.submenu:hover {
+	text-decoration: none;
+	background-color: white;
 }
 .topNavBar {
 	float: left;
@@ -56,15 +47,15 @@ a:active {
 }
 .topNavItem {
 	font-family: 'Elsie', cursive;
-	background-color: #c2b73c;
+	background-color: #cccc66;
 	margin: 20px 10px;
 }
-.frontPageImg {
+.mainContent {
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 	height: 450px;
-	box-shadow: 10px 10px 5px #710748;
+	box-shadow: 10px 10px 5px #666633;
 	position: relative;
 	z-index: -1;
 }
@@ -75,4 +66,45 @@ a:active {
 .logoAT {
 	width: 60px;
 	height: 60px;
+}
+/*===============================================*/
+.eventBox,
+.dayOfWeek {
+	min-height: 57px;
+	width: 120px;
+	float: left;
+	margin: 1px 0px 0px;
+	background-color: white;
+	z-index: -1;
+	position: relative;
+	text-align: left;
+	border-left: solid 4px crimson;
+	font-family: serif;
+	padding: 5px;
+}
+.dayOfWeek {
+	min-height: 25px;
+	margin: 5px 0px 0px;
+	-webkit-border-radius: 50px 50px 0px 0px;
+	-moz-border-radius: 50px 50px 0px 0px;
+	border-radius: 50px 50px 0px 0px;
+	font-size: x-large;
+	text-align: center;
+	line-height: 25px;
+	padding-bottom: 0px;
+}
+.monthName {
+	width: 790px;
+	font-size: 33px;
+	text-align: center;
+}
+.blankBox {
+	border: 0px;
+	background-color: inherit;
+}
+.paragraph {
+	border: solid 1px black;
+	min-height: 448px;
+	border-radius: 15px;
+	background-color: #ccffcc;
 }
