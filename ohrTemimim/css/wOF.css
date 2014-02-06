@@ -1,6 +1,7 @@
 div {
-	padding: 3px 0px;
+	text-align: center;
 }
+span {}
 .box {
 	border: solid 5px gray;
 	text-align: center;
