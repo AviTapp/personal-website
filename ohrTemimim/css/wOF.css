@@ -1,0 +1,18 @@
+div {
+	padding: 3px 0px;
+}
+.box {
+	border: solid 5px gray;
+	text-align: center;
+}
+.bh, .title, .footer {
+	font-variant: small-caps;
+	margin: 0px;
+}
+.footer {
+	text-align: center;
+	font-size: 1.25em;
+}
+.bh {
+	float: right;
+}

@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Wrap Order Form</title>
+		<link rel="stylesheet" type="text/css" href="css/wOF.css">
+		<link rel="stylesheet" type="text/css" href="css/960gs.css">
+	</head>
+	<body>
+		<div class="bh">b"h</div>
+		<form class="container_15" action="placeOrder.php" method="post">
+			<div class="grid_15"><h1 class="box">Thursday Wraps / 8th Grade Fundraiser</h1></div>
+			<div class="grid_5">Name on Order: <input type="text" name="name"></div>
+			
+			<div class="grid_15"><hr></div>
+			<div class="grid_5"><p class="title">Garden Vegetable Wrap</p><p>spinach, alfalfa, red onion, pepper, cucumber, carrot</p></div>
+			<div class="grid_5"><p class="title">California Veggie Wrap</p><p>avocado, lettuce, red onion, pepper, cucumber, carrot</p></div>
+			<div class="grid_5"><p class="title">Tuna Wrap</p><p>tuna, lettuce, red onion, pepper, cucumber, carrot</p></div>
+			<div class="grid_15"><hr></div>
+			
+			<div class="grid_7">Which wrap would you like?
+				<select name="wrapInside">
+					<option value="Garden Vegetable Wrap">Garden Vegetable Wrap ($3.50/each)</option>
+					<option value="California Veggie Wrap">California Veggie Wrap ($3.50/each)</option>
+					<option value="Tuna Wrap">Tuna Wrap ($4.50/each)</option>
+					<option value="Other">Other (please detail in special instructions)</option>
+				</select>
+			</div>
+			<div class="grid_6">Any special instructions? <input type="text" name="details"></div>
+			
+			<div class="grid_4">What kind of wrap?
+				<select name="wrapOutside">
+					<option value="Whole Wheat">Whole Wheat</option>
+					<option value="Regular">Regular</option>
+					<option value="Spinach">Spinach</option>
+				</select>
+			</div>
+			<div class="grid_5">How many wraps? <input type="number" name="howMany"></div>
+			<div class="grid_4">How about a drink?
+				<select name="drink">
+					<option value="Water Bottle">Water Bottle ($0.75)</option>
+					<option value="Snapple">Snapple ($1.00)</option>
+					<option value="none">No Thanks</option>
+				</select>
+			</div>
+			
+			<div class="prefix_1 grid_13 suffix_1"><hr></div>
+			<div class="prefix_1 grid_13 suffix_1 footer">Please leave envelope with payment in mailbox outside the office or hand it to Adina Tapp or Rochie Shanowitz</div>
+			<div class="prefix_1 grid_13 suffix_1"><hr></div>
+
+			<div class="grid_4 suffix_8">How are you leaving your payment?
+				<select name="payment">
+					<option value="cash">Cash</option>
+					<option value="check">Check</option>
+				</select>
+			</div>
+			<input type="submit" class="grid_2 box">
+		</form>
+	</body>
+</html>

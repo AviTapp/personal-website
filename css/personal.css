@@ -2,25 +2,28 @@ body {
 	background-color: #181818;
 	color: #ffffff;
 }
-a:link,
-a:visited,
-a:hover,
-a:active {
+
+a:link,a:visited,a:hover,a:active {
 	text-decoration: none;
 	color: #ffffff;
 }
+
 .button {
 	border: 1px solid white;
 	margin: 5px 0px;
 	padding: 5px;
 }
+
 h1 {
 	text-align: center;
 }
+
 .thumbnail {
 	width: 257px;
 	height: 193px;
 	margin: 30px 0px;
+
+	-webkit-box-shadow: -2px 5px #808080;
 	box-shadow: -2px 5px #808080;
 	border-radius: 10px;
 }
