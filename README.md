@@ -8,3 +8,7 @@ get in touch with me regarding any problems, improvements, or criticisms about
 the website or also any project ideas you have for me.
 
 I also like being hired! :)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/AviTapp/personal-website/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
