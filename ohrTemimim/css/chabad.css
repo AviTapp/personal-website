@@ -1,0 +1,63 @@
+h1 > table {
+	margin: 0px;
+}
+
+.CLTable {
+	margin: 0px;
+}
+
+.CLTable > tbody > tr > td > table {
+	margin-bottom: 0px;
+}
+
+.CLHeadingBold {
+	font-weight: 700;
+}
+
+.CLheading {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 11px;
+	text-align: center;
+}
+
+A.CLLink {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 9px;
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+}
+
+A.CLLink:Hover {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 9px;
+	text-align: center;
+	color: #000;
+	text-decoration: underline;
+}
+
+.CLdate {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 11px;
+	text-align: Left;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.CLtime {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 11px;
+	text-align: Right;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+.CLhr {
+	color: #666;
+	height: 1px;
+	width: 50%;
+}
+
+.CLHolName {
+	font-weight: 400;
+}

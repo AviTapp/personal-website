@@ -1,0 +1,77 @@
+body {	color: #fff;
+		background: url(../img/newSchool.png) no-repeat center center fixed;
+		-webkit-background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		-o-background-size: 100% 100%;
+		background-size: 100% 100%;}
+a:link,a:visited,a:hover,a:active {text-decoration: none;	color:inherit;}
+h1,h2,h3,h4,h5,h6 {text-align: center;}
+h1 {padding: 5px;margin: 0px; font-weight: 100;}
+hr {margin: 0px; border: 1px solid #ccc;}
+p {padding: 85px 20px;margin: 0px;text-align: center;}
+
+.content {
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+.nav {
+	background: #000000;
+	width: 190px;
+	min-height: 20px;
+	float: left;
+	margin: 0px;
+}
+.navConnect {
+	float: left;
+	width: 18px;
+	height: 47px;
+	background: #000;
+	margin: 0px;
+	border-top:solid 2px #ccc;
+	border-radius: 0px 0px 0px 0px;
+}
+#firstTab {
+	border-radius: 0px 50px 50px;
+}
+.secondTab {
+	margin-top: 51px;
+	border: none;
+	border-radius: 0px 70px 70px 0px;
+	width: 15px;
+}
+.thirdTab {
+	margin-top: 100px;
+	float: left;
+	border: none;
+}
+.fourthTab {
+	margin-top: 149px;
+	float: left;
+	border: none;
+}
+.fifthTab {
+	margin-top: 196px;
+	float: left;
+}
+#fifthTab {
+	border-radius: 50px 50px 50px 0px;
+}
+.focus {
+	background: #000000;
+	width: 600px;
+	height: 243px;
+	margin: 0px;
+	float: left;
+	border-radius: 50px;
+	border-top: solid 2px #ccc;
+}
+.logo {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: -1;
+}
+.forms {
+	width: 250px;
+}
