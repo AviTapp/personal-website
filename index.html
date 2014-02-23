@@ -1,25 +1,97 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to nginx!</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
-</head>
-<body>
-<h1>Welcome to nginx!</h1>
-<p>If you see this page, the nginx web server is successfully installed and
-working. Further configuration is required.</p>
+<html lang="en">
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" type="text/css" href="css/960gs.css">
+		<link rel="stylesheet" type="text/css" href="css/personal.css">
+		<link rel="stylesheet" type="text/css" href="css/windy.css">
+		<link rel="stylesheet" type="text/css" href="css/demo.css">
+		<link rel="stylesheet" type="text/css" href="css/style1.css">
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+		<noscript><link rel="stylesheet" type="text/css" href="css/noJS.css" /></noscript>
+	</head>
+	<body class="container_12">
+		<div class="grid_2">
+			<img id="face" src="img/face.png">
+			<h1 style="margin-top:20px">Avi Tapp</h1>
+			<div class="button">716-939-1132</div>
+			<div class="button"><a href="contact.html">Email</a></div>
+			<div class="button"><a href="http://goo.gl/nzzRv4" target="_blank">GitHub</a></div>
+			<div class="button"><a href="http://goo.gl/vteVsX" target="_blank">Facebook</a></div>
+			<div class="button"><a href="http://goo.gl/ujoPPo" target="_blank">Google+</a></div>
+			<div class="button"><a href="docs/avi-tapp-communications-resume.pdf" target="_blank">Resume</a></div>
+			<div class="button"><strike>Public Relations</strike></div>
+			<div class="button"><strike>Graphic Design</strike></div>
+		</div>
+		<div class="grid_10">
+			<div class="container">
+				<section class="main">
+					<div class="windy-demo">
+						<ul id="wi-el" class="wi-container">
+							<li><a href="ohrTemimim/index.html"><img src="img/ohrTemimim.png" alt="Ohr Temimim"/></a><h4>Ohr Temimim Jewish Heritage Day School</h4><p>Jewish day school, Buffalo, NY</p></li>
+							<li><a href="adunder/index.html"><img src="img/adunder.png" alt="Adunder Designs"/></a><h4>Adunder Designs</h4><p>Event planning and related services, Buffalo, NY</p></li>
+							<li><a href="saranac/index.html"><img src="img/saranac.png" alt="Saranac Synagogue"/></a><h4>Saranac Synagogue</h4><p>Jewish Synagogue and Yeshiva, Buffalo, NY</p></li>
+							<li><a href="altfinefoods/index.html"><img src="img/aff.png" alt="Alt Fine Foods"/></a><h4>Alt Fine Foods, Inc.</h4><p>Kosher catering, Buffalo, NY</p></li>
+						</ul>
+						<nav>
+							<span id="nav-prev">prev</span>
+							<span id="nav-next">next</span>
+						</nav>
+					</div>
+				</section>
+			</div>
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+			<script type="text/javascript" src="js/jquery.windy.js"></script>
+			<script type="text/javascript">	
+				$(function() {
 
-<p>For online documentation and support please refer to
-<a href="http://nginx.org/">nginx.org</a>.<br/>
-Commercial support is available at
-<a href="http://nginx.com/">nginx.com</a>.</p>
+					var $el = $( '#wi-el' ),
+						windy = $el.windy(),
+						allownavnext = false,
+						allownavprev = false;
 
-<p><em>Thank you for using nginx.</em></p>
-</body>
+					$( '#nav-prev' ).on( 'mousedown', function( event ) {
+
+						allownavprev = true;
+						navprev();
+					
+					} ).on( 'mouseup mouseleave', function( event ) {
+
+						allownavprev = false;
+					
+					} );
+
+					$( '#nav-next' ).on( 'mousedown', function( event ) {
+
+						allownavnext = true;
+						navnext();
+					
+					} ).on( 'mouseup mouseleave', function( event ) {
+
+						allownavnext = false;
+					
+					} );
+
+					function navnext() {
+						if( allownavnext ) {
+							windy.next();
+							setTimeout( function() {	
+								navnext();
+							}, 150 );
+						}
+					}
+					
+					function navprev() {
+						if( allownavprev ) {
+							windy.prev();
+							setTimeout( function() {	
+								navprev();
+							}, 150 );
+						}
+					}
+
+				});
+			</script>
+		</div>
+	</body>
 </html>

@@ -5,11 +5,9 @@ body {margin-top: 30px;}
 	border: double 4px darkblue;
 	margin-left: 10px;
 }
-#height90 {height: 90px;}
 div {text-align: center;}
 span {min-height: 30px;font-size: 14px;}
 p {padding: 10px 0px;}
-hr {margin: 0px; padding: 0px;}
 .textRight {text-align: right;}
 .box {
 	border: solid 5px gray;
@@ -20,10 +18,6 @@ hr {margin: 0px; padding: 0px;}
 	margin: 0px;
 }
 .bh {float: right; margin-right: 30px;}
-.footer {
-	text-align: center;
-	font-size: 1.25em;
-}
 .title {
 	border-top: solid 9px darkblue;
 	border-bottom: solid 1px darkblue;
