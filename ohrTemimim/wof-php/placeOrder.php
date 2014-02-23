@@ -70,19 +70,19 @@
 						}
 					/* set wrap quantity */
 					if ($q1== 0) {
-							$wrap1 = "nothing"
+							$wrap1 = "nothing";
 						} else {
-							$wrap1 = $q1." ".$q1fill." with ".$q1wrap." wrap."
+							$wrap1 = $q1." ".$q1fill." with ".$q1wrap." wrap.";
 						}
 					if ($q2 == 0) {
-							$wrap2 = "nothing"
+							$wrap2 = "nothing";
 						} else {
-							$wrap2 = $q2." ".$q2fill." with ".$q2wrap." wrap."
+							$wrap2 = $q2." ".$q2fill." with ".$q2wrap." wrap.";
 						}
 					if ($q3 == 0) {
-							$wrap3 = "nothing"
+							$wrap3 = "nothing";
 						} else {
-							$wrap3 = $q3." ".$q3fill." with ".$q3wrap." wrap."
+							$wrap3 = $q3." ".$q3fill." with ".$q3wrap." wrap.";
 						}
 					/* set drink cost */
 					if ($drinkName=="Water Bottle") {
