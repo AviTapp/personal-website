@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<FileZilla3>
+    <Servers>
+        <Server>
+            <Host>andrewtapp.com</Host>
+            <Port>22</Port>
+            <Protocol>1</Protocol>
+            <Type>0</Type>
+            <User>avi</User>
+            <Pass>165580141</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>AndrewTapp.com</Name>
+            <Comments></Comments>
+            <LocalDir>/home/avi/Dropbox/repos/personal-website</LocalDir>
+            <RemoteDir>1 0 3 usr 5 share 5 nginx 4 html</RemoteDir>
+            <SyncBrowsing>1</SyncBrowsing>AndrewTapp.com
+        </Server>
+    </Servers>
+</FileZilla3>

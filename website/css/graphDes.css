@@ -1,0 +1,10 @@
+.exampleImg {
+	float: left;
+	width: 165px;
+	margin: 20px 0 0 20px;
+	list-style-type: none;
+}
+img {
+	width: 100%;
+	height: 100%;
+}

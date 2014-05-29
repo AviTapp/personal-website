@@ -1,0 +1,10 @@
+.grid_10 {
+	max-height: 525px;
+	overflow: auto;
+}
+h1 {
+	margin-top: 30px;
+}
+.grid_10 > ul > li {
+	list-style-type: none;
+}
